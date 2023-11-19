@@ -1,0 +1,59 @@
+.juice {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.sirchandler.com.ar%2Fwp-content%2Fuploads%2F2019%2F06%2Fclub-flybondi.png%3Fw%3D2088%26ssl%3D1&f=1&nofb=1&ipt=eb9473a79f51df195bf5919f99e04bb64e338efa5ee69a32d8d5ceb3bcbb106c&ipo=images");
+  opacity: 0.8;
+  background-position: center;
+}
+
+.juice2 {
+  background-size: cover;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe4%2Fd3%2F53%2Fe4d353e262d5d9aee2f0ba8c3bc11173.jpg&f=1&nofb=1&ipt=421f1978cae9dfe1937ba907d7e4bcfcd2dd31ed01e20d0544ef490ea2969a3e&ipo=images");
+}
+
+.juice3 {
+  z-index: 10;
+  position: relative;
+}
+
+.juice3::after {
+  content: "";
+  position: absolute;
+  opacity: 0.2;
+  z-index: -999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("https://previews.123rf.com/images/olgasiv/olgasiv1403/olgasiv140300026/27343111-image-en-noir-sur-un-fond-blanc-dessin-de-l%C3%A9gumes-de-fruits-et-de-baies-.jpg");
+}
+
+.text-primary {
+  color: #f9b529;
+}
+
+.text-primary-lite {
+  color: #fac251;
+}
+
+.text-secondary {
+  color: #294356;
+}
+
+.text-secondary-lite {
+  color: #d5dee5;
+}
+
+.bg-primary {
+  background-color: #f9b529;
+}
+
+.bg-primary-lite {
+  background-color: #fac251;
+}
+
+.bg-secondary {
+  background-color: #294356;
+}
+
+.bg-secondary-lite {
+  background-color: #d5dee5;
+}
